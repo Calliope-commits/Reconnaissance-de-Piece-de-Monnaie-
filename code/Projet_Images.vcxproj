@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{c087e8cd-b477-479b-b93b-81e85fd12089}</ProjectGuid>
+    <RootNamespace>ProjetImages</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>D:\logiciels\opencv\opencv\build\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\logiciels\opencv\opencv\build\x64\vc15\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>opencv_world455d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <DeploymentContent>true</DeploymentContent>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="centered.bmp">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="input_images\10cent.jpeg" />
+    <Image Include="input_images\10cent.jpg">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="input_images\1cent.jpg">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="input_images\1e.jpg">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="input_images\1euro.jpeg" />
+    <Image Include="input_images\20cent.jpg">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="input_images\2cent.jpg">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="input_images\2e.jpg">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="input_images\2euro.jpeg" />
+    <Image Include="input_images\50cent.jpg">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="input_images\5cent.jpg">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="input_images\image4.jpeg">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="input_images\img5.jpeg">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="input_images\img6.jpeg">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="input_images\img7.jpeg">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="ouput_images\Candidate-000.bmp">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="ouput_images\Candidate-001.bmp">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="ouput_images\Candidate-002.bmp">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="ouput_images\Candidate-003.bmp">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="ouput_images\Candidate-004.bmp">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="ouput_images\Candidate-005.bmp">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="ouput_images\Candidate-006.bmp">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="ouput_images\Candidate-007.bmp">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="ouput_images\Candidate-008.bmp">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="ouput_images\Candidate-009.bmp">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="ouput_images\Candidate-010.bmp">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="ouput_images\Candidate-011.bmp">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="ouput_images\Candidate-012.bmp">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="ouput_images\Candidate-013.bmp">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="ouput_images\template-000.bmp">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="ouput_images\template-030.bmp">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="ouput_images\template-060.bmp">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="ouput_images\template-090.bmp">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="ouput_images\template-120.bmp">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="ouput_images\template-150.bmp">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="ouput_images\template-180.bmp">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="ouput_images\template-210.bmp">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="ouput_images\template-240.bmp">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="ouput_images\template-270.bmp">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="ouput_images\template-300.bmp">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="ouput_images\template-330.bmp">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="ouput_images\templateMask-000.bmp">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="ouput_images\templateMask-030.bmp">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="ouput_images\templateMask-060.bmp">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="ouput_images\templateMask-090.bmp">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="ouput_images\templateMask-120.bmp">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="ouput_images\templateMask-150.bmp">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="ouput_images\templateMask-180.bmp">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="ouput_images\templateMask-210.bmp">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="ouput_images\templateMask-240.bmp">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="ouput_images\templateMask-270.bmp">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="ouput_images\templateMask-300.bmp">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="ouput_images\templateMask-330.bmp">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="scaled.bmp">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pathHandler.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

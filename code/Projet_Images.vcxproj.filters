@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="input_images\1euro.jpeg">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="input_images\2euro.jpeg">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="input_images\10cent.jpeg">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="input_images\image4.jpeg">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="ouput_images\template-000.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="ouput_images\template-030.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="ouput_images\template-060.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="ouput_images\template-090.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="ouput_images\template-120.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="ouput_images\template-150.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="ouput_images\templateMask-000.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="ouput_images\template-330.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="ouput_images\template-300.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="ouput_images\template-270.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="ouput_images\template-240.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="ouput_images\template-210.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="ouput_images\template-180.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="ouput_images\templateMask-030.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="ouput_images\templateMask-060.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="ouput_images\templateMask-090.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="ouput_images\templateMask-120.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="ouput_images\templateMask-150.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="ouput_images\templateMask-180.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="ouput_images\templateMask-210.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="ouput_images\templateMask-240.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="ouput_images\templateMask-270.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="ouput_images\templateMask-300.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="ouput_images\templateMask-330.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="input_images\10cent.jpg">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="input_images\1cent.jpg">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="input_images\1e.jpg">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="input_images\2e.jpg">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="input_images\2cent.jpg">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="input_images\5cent.jpg">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="input_images\20cent.jpg">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="input_images\50cent.jpg">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="input_images\img7.jpeg">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="input_images\img6.jpeg">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="input_images\img5.jpeg">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="centered.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="scaled.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="ouput_images\Candidate-002.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="ouput_images\Candidate-003.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="ouput_images\Candidate-004.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="ouput_images\Candidate-000.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="ouput_images\Candidate-001.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="ouput_images\Candidate-005.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="ouput_images\Candidate-006.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="ouput_images\Candidate-007.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="ouput_images\Candidate-008.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="ouput_images\Candidate-009.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="ouput_images\Candidate-010.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="ouput_images\Candidate-011.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="ouput_images\Candidate-012.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="ouput_images\Candidate-013.bmp">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pathHandler.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

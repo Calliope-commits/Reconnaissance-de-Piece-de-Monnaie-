@@ -1,0 +1,2 @@
+﻿  main.cpp
+F:\M1 VMI\s2\traitement image\Projet2\Image\Projet_Images\main.cpp(14,10): fatal error C1083: Impossible d'ouvrir le fichier include : 'cmath.h' : No such file or directory

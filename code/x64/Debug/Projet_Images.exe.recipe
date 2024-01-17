@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>F:\M1 VMI\s2\traitement image\Projet2\Image\Projet_Images\x64\Debug\Projet_Images.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>F:\M1 VMI\s2\traitement image\Projet2\Image\Projet_Images\main.cpp</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>F:\M1 VMI\s2\traitement image\Projet2\Image\Projet_Images\centered.bmp</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>F:\M1 VMI\s2\traitement image\Projet2\Image\Projet_Images\input_images\10cent.jpg</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>F:\M1 VMI\s2\traitement image\Projet2\Image\Projet_Images\input_images\1cent.jpg</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>F:\M1 VMI\s2\traitement image\Projet2\Image\Projet_Images\input_images\1e.jpg</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>F:\M1 VMI\s2\traitement image\Projet2\Image\Projet_Images\input_images\20cent.jpg</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>F:\M1 VMI\s2\traitement image\Projet2\Image\Projet_Images\input_images\2cent.jpg</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>F:\M1 VMI\s2\traitement image\Projet2\Image\Projet_Images\input_images\2e.jpg</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>F:\M1 VMI\s2\traitement image\Projet2\Image\Projet_Images\input_images\50cent.jpg</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>F:\M1 VMI\s2\traitement image\Projet2\Image\Projet_Images\input_images\5cent.jpg</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>F:\M1 VMI\s2\traitement image\Projet2\Image\Projet_Images\input_images\image4.jpeg</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>F:\M1 VMI\s2\traitement image\Projet2\Image\Projet_Images\input_images\img5.jpeg</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>F:\M1 VMI\s2\traitement image\Projet2\Image\Projet_Images\input_images\img6.jpeg</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>F:\M1 VMI\s2\traitement image\Projet2\Image\Projet_Images\input_images\img7.jpeg</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>F:\M1 VMI\s2\traitement image\Projet2\Image\Projet_Images\ouput_images\Candidate-000.bmp</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>F:\M1 VMI\s2\traitement image\Projet2\Image\Projet_Images\ouput_images\Candidate-001.bmp</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>F:\M1 VMI\s2\traitement image\Projet2\Image\Projet_Images\ouput_images\Candidate-002.bmp</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>F:\M1 VMI\s2\traitement image\Projet2\Image\Projet_Images\ouput_images\Candidate-003.bmp</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>F:\M1 VMI\s2\traitement image\Projet2\Image\Projet_Images\ouput_images\Candidate-004.bmp</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>F:\M1 VMI\s2\traitement image\Projet2\Image\Projet_Images\ouput_images\Candidate-005.bmp</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>F:\M1 VMI\s2\traitement image\Projet2\Image\Projet_Images\ouput_images\Candidate-006.bmp</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>F:\M1 VMI\s2\traitement image\Projet2\Image\Projet_Images\ouput_images\Candidate-007.bmp</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>F:\M1 VMI\s2\traitement image\Projet2\Image\Projet_Images\ouput_images\Candidate-008.bmp</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>F:\M1 VMI\s2\traitement image\Projet2\Image\Projet_Images\ouput_images\Candidate-009.bmp</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>F:\M1 VMI\s2\traitement image\Projet2\Image\Projet_Images\ouput_images\Candidate-010.bmp</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>F:\M1 VMI\s2\traitement image\Projet2\Image\Projet_Images\ouput_images\Candidate-011.bmp</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>F:\M1 VMI\s2\traitement image\Projet2\Image\Projet_Images\ouput_images\Candidate-012.bmp</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>F:\M1 VMI\s2\traitement image\Projet2\Image\Projet_Images\ouput_images\Candidate-013.bmp</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>F:\M1 VMI\s2\traitement image\Projet2\Image\Projet_Images\ouput_images\template-000.bmp</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>F:\M1 VMI\s2\traitement image\Projet2\Image\Projet_Images\ouput_images\template-030.bmp</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>F:\M1 VMI\s2\traitement image\Projet2\Image\Projet_Images\ouput_images\template-060.bmp</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>F:\M1 VMI\s2\traitement image\Projet2\Image\Projet_Images\ouput_images\template-090.bmp</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>F:\M1 VMI\s2\traitement image\Projet2\Image\Projet_Images\ouput_images\template-120.bmp</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>F:\M1 VMI\s2\traitement image\Projet2\Image\Projet_Images\ouput_images\template-150.bmp</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>F:\M1 VMI\s2\traitement image\Projet2\Image\Projet_Images\ouput_images\template-180.bmp</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>F:\M1 VMI\s2\traitement image\Projet2\Image\Projet_Images\ouput_images\template-210.bmp</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>F:\M1 VMI\s2\traitement image\Projet2\Image\Projet_Images\ouput_images\template-240.bmp</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>F:\M1 VMI\s2\traitement image\Projet2\Image\Projet_Images\ouput_images\template-270.bmp</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>F:\M1 VMI\s2\traitement image\Projet2\Image\Projet_Images\ouput_images\template-300.bmp</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>F:\M1 VMI\s2\traitement image\Projet2\Image\Projet_Images\ouput_images\template-330.bmp</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>F:\M1 VMI\s2\traitement image\Projet2\Image\Projet_Images\ouput_images\templateMask-000.bmp</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>F:\M1 VMI\s2\traitement image\Projet2\Image\Projet_Images\ouput_images\templateMask-030.bmp</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>F:\M1 VMI\s2\traitement image\Projet2\Image\Projet_Images\ouput_images\templateMask-060.bmp</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>F:\M1 VMI\s2\traitement image\Projet2\Image\Projet_Images\ouput_images\templateMask-090.bmp</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>F:\M1 VMI\s2\traitement image\Projet2\Image\Projet_Images\ouput_images\templateMask-120.bmp</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>F:\M1 VMI\s2\traitement image\Projet2\Image\Projet_Images\ouput_images\templateMask-150.bmp</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>F:\M1 VMI\s2\traitement image\Projet2\Image\Projet_Images\ouput_images\templateMask-180.bmp</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>F:\M1 VMI\s2\traitement image\Projet2\Image\Projet_Images\ouput_images\templateMask-210.bmp</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>F:\M1 VMI\s2\traitement image\Projet2\Image\Projet_Images\ouput_images\templateMask-240.bmp</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>F:\M1 VMI\s2\traitement image\Projet2\Image\Projet_Images\ouput_images\templateMask-270.bmp</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>F:\M1 VMI\s2\traitement image\Projet2\Image\Projet_Images\ouput_images\templateMask-300.bmp</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>F:\M1 VMI\s2\traitement image\Projet2\Image\Projet_Images\ouput_images\templateMask-330.bmp</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>F:\M1 VMI\s2\traitement image\Projet2\Image\Projet_Images\scaled.bmp</FullPath>
+    </ContentFile>
+  </ContentFiles>
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>
