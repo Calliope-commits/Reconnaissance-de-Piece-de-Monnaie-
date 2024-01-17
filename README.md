@@ -22,6 +22,7 @@ OpenCV
 
 ### Segmentation : Au niveau de la détection des ROI :
 _Segmentation : Seuillage + Transformée de Hough_:
+
 On segmente les endroits de l’images où les pièces sont visibles (ROI). On utilise un filtre
 gaussien sur l’image, et on applique HoughCircle() d’OpenCV.
 Afin d’obtenir un masque on utilise un filtre de Canny, findConoutrs() et drawContours().
@@ -39,6 +40,7 @@ autour de ces cercles pour créer des objets “Piece” :
 ### Analyse : Classification des pièces
 
 _Classification des pièces: 3 grandes catégories_
+
 A partir de ces objets pièces nous procédons à une classification qui est divisée en
 trois catégories : pièces 1-2 euros, pièces : 1-5 centimes (rouges), et autres
 (jaune)
@@ -48,6 +50,7 @@ présentant une bonne qualité.
 ![image](https://github.com/Calliope-commits/Reconnaissance-de-Piece-de-Monnaie-/assets/61286710/91114f74-1579-4fcf-8e0d-1e0cad8c3cf3)
 
 _Classification des pièces 1 et 2 euros_
+
 Pour ces pièces, une classification à base de seuillage sur la saturation des
 images dans l’espace HSV suffit. On fait un seuillage OTSU sur la saturation de
 notre objet “Piece”, et sur l’Image de référence, pour ensuite appliquer un XOR, et
@@ -65,11 +68,21 @@ Ensuite on procède à un template matching en utilisant ORB comme descripteur
 
 ![image](https://github.com/Calliope-commits/Reconnaissance-de-Piece-de-Monnaie-/assets/61286710/9cce36bc-4f14-4d91-b894-fe371349f316)
 
--_Classification des pièces 10, 20 et 50 centimes_ 
+-_Classification des pièces 10, 20 et 50 centimes_
+
 Sur les pièces de cette catégorie on procède un template matching avec les
 images de référence de ces pièces en utilisant ORB comme descripteur
 10
 
 ![image](https://github.com/Calliope-commits/Reconnaissance-de-Piece-de-Monnaie-/assets/61286710/2c78667a-971c-46ee-a11a-ae99fd279166)
 
+### Résultats : 
+
+![image](https://github.com/Calliope-commits/Reconnaissance-de-Piece-de-Monnaie-/assets/61286710/be3a9324-2e10-49de-9a53-e8fd031bded9)
+
+![image](https://github.com/Calliope-commits/Reconnaissance-de-Piece-de-Monnaie-/assets/61286710/cc76ca54-8ad9-4c59-9424-789a9650ce87)
+
+## Auteurs :
+
+Aïssatou Signaté , Hichem Boussaid
 
