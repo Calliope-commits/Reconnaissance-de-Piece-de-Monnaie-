@@ -1,6 +1,6 @@
 # Reconnaissance-de-Piece-de-Monnaie-
 
-Université Paris Cité 2022 - Traitement d'image - Enseigant : Nicole Vincent 
+Université Paris Cité - Traitement d'image - Enseignant : Nicole Vincent 
 
 Analyser la valeur des pièces de monnaies sur une image et déterminer la valeur totale présente sur celle-ci
 
